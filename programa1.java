@@ -2,13 +2,15 @@ package com.iesinfantaelena;
 
 public class programa1 {
 
-	public static void main(String[] args) { System.out.println("1er commit rama2");System.out.println("2o commit rama2");
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {
+			for (int i = 0; i < args.length; i++) { System.out.println("1er commit rama2");System.out.println("2o commit rama2");
+			System.out.println("prueba");
+			}
+
 		System.out.println("1er commit rama1");
 		System.out.println("2o commit rama1");
 		System.out.println("3er commit rama1");
+	}
+}
 		
 	
-	}
-
-}
